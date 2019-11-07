@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+plugin 'cocoapods-pod-merge'
+
+target 'PodsMergeDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PodsMergeDemo
+
+  pod 'SVGAPlayer', '~> 2.3.4'
+
+  # Merged Pods:
+  pod 'Networking', :path => 'MergedPods/Networking'
+  pod 'UI', :path => 'MergedPods/UI'
+  pod 'YYTools', :path => 'MergedPods/YYTools'
+  
+
+end

@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-PodsMergeDemo/Pods-PodsMergeDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Networking/Networking.framework
+${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework
+${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework
+${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework
+${BUILT_PRODUCTS_DIR}/UI/UI.framework
+${BUILT_PRODUCTS_DIR}/YYTools/YYTools.framework

@@ -1,0 +1,44 @@
+framework module YYTools {
+
+	explicit module YYModel {
+		header "YYClassInfo.h"
+		header "YYModel.h"
+		header "NSObject+YYModel.h"
+	}
+
+	explicit module YYText {
+		header "YYText.h"
+		header "YYTextSelectionView.h"
+		header "YYTextLine.h"
+		header "YYTextLayout.h"
+		header "YYTextKeyboardManager.h"
+		header "YYTextDebugOption.h"
+		header "YYTextMagnifier.h"
+		header "YYTextEffectWindow.h"
+		header "YYTextContainerView.h"
+		header "YYTextInput.h"
+		header "YYTextView.h"
+		header "YYTextAttribute.h"
+		header "YYTextRubyAnnotation.h"
+		header "YYTextArchiver.h"
+		header "YYTextRunDelegate.h"
+		header "YYTextParser.h"
+		header "YYLabel.h"
+		header "UIView+YYText.h"
+		header "YYTextTransaction.h"
+		header "YYTextWeakProxy.h"
+		header "YYTextAsyncLayer.h"
+		header "YYTextUtilities.h"
+		header "NSAttributedString+YYText.h"
+		header "NSParagraphStyle+YYText.h"
+		header "UIPasteboard+YYText.h"
+	}
+
+	explicit module YYCache {
+		header "YYKVStorage.h"
+		header "YYMemoryCache.h"
+		header "YYDiskCache.h"
+		header "YYCache.h"
+	}
+
+}

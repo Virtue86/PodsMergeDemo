@@ -1,0 +1,55 @@
+framework module UI {
+
+	explicit module MJRefresh {
+		header "UIScrollView+MJExtension.h"
+		header "MJRefresh.h"
+		header "NSBundle+MJRefresh.h"
+		header "UIView+MJExtension.h"
+		header "MJRefreshConst.h"
+		header "UIScrollView+MJRefresh.h"
+		header "MJRefreshBackGifFooter.h"
+		header "MJRefreshBackStateFooter.h"
+		header "MJRefreshBackNormalFooter.h"
+		header "MJRefreshAutoStateFooter.h"
+		header "MJRefreshAutoNormalFooter.h"
+		header "MJRefreshAutoGifFooter.h"
+		header "MJRefreshStateHeader.h"
+		header "MJRefreshGifHeader.h"
+		header "MJRefreshNormalHeader.h"
+		header "MJRefreshComponent.h"
+		header "MJRefreshAutoFooter.h"
+		header "MJRefreshHeader.h"
+		header "MJRefreshFooter.h"
+		header "MJRefreshBackFooter.h"
+	}
+
+	explicit module MBProgressHUD {
+		header "MBProgressHUD.h"
+	}
+
+	explicit module BATextView {
+		header "BAKit_ConfigurationDefine.h"
+		header "BATextView.h"
+		header "BATextView_Version.h"
+		header "UITextView+BAKit.h"
+	}
+
+	explicit module Masonry {
+		header "MASCompositeConstraint.h"
+		header "MASConstraint+Private.h"
+		header "MASLayoutConstraint.h"
+		header "NSArray+MASShorthandAdditions.h"
+		header "MASConstraintMaker.h"
+		header "View+MASAdditions.h"
+		header "NSArray+MASAdditions.h"
+		header "MASUtilities.h"
+		header "MASViewAttribute.h"
+		header "MASViewConstraint.h"
+		header "MASConstraint.h"
+		header "NSLayoutConstraint+MASDebugAdditions.h"
+		header "View+MASShorthandAdditions.h"
+		header "Masonry.h"
+		header "ViewController+MASAdditions.h"
+	}
+
+}

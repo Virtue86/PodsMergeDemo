@@ -1,0 +1,46 @@
+PODS:
+  - Networking (1.0.0)
+  - Protobuf (3.10.0)
+  - SSZipArchive (2.2.2)
+  - SVGAPlayer (2.3.5):
+    - SVGAPlayer/Core (= 2.3.5)
+    - SVGAPlayer/ProtoFiles (= 2.3.5)
+  - SVGAPlayer/Core (2.3.5):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.3.5):
+    - Protobuf (~> 3.4)
+  - UI (1.0.0)
+  - YYTools (1.0.0)
+
+DEPENDENCIES:
+  - Networking (from `MergedPods/Networking`)
+  - SVGAPlayer (~> 2.3.4)
+  - UI (from `MergedPods/UI`)
+  - YYTools (from `MergedPods/YYTools`)
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
+
+EXTERNAL SOURCES:
+  Networking:
+    :path: MergedPods/Networking
+  UI:
+    :path: MergedPods/UI
+  YYTools:
+    :path: MergedPods/YYTools
+
+SPEC CHECKSUMS:
+  Networking: 844633d13d2328a829083b24ffaee99aea51c1de
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SVGAPlayer: bae4048710c948dc4de98971e35207d3bbed85ad
+  UI: 4f1161347c75f848f8bd7f0400b4c02fff287783
+  YYTools: 4e8a9451a869b788a8acad029581dbefc1435aa0
+
+PODFILE CHECKSUM: 5140b1978c63548f4689717936d33c11a34bf2dc
+
+COCOAPODS: 1.8.1

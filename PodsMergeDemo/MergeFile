@@ -1,0 +1,20 @@
+
+
+group 'Networking'
+    pod 'AFNetworking', '2.7.0'
+	pod 'SDWebImage', '~> 5.0'
+end
+
+group 'UI'
+   pod 'MJRefresh', '3.1.12'
+   pod 'MBProgressHUD', '1.0.0'
+   pod 'BATextView'
+   pod 'Masonry'
+end
+
+
+group 'YYTools'
+   pod 'YYModel', '1.0.4'
+   pod 'YYText', '1.0.7'
+   pod 'YYCache', '1.0.4'
+end
